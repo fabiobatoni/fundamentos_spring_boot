@@ -5,7 +5,7 @@
 ## Fundamentos SpringBoot
 
 
-O Spring Boot é um projeto dentro do ecossistema do Spring Framework que facilita o desenvolvimento de aplicações Java. Antes, era necessário fazer várias configurações e escrever arquivos XML, mas com o Spring Boot, isso não é mais necessário. Além disso, o Spring Boot integra-se facilmente com outras bibliotecas, como o Spring Data, que permite trabalhar com bancos de dados de forma rápida e fácil. O Spring Boot se tornou popular devido à sua facilidade de uso, flexibilidade e desempenho. Nesta aula, vamos explorar mais sobre o Spring Boot e entender por que ele é tão querido pelos desenvolvedores Java.
+O Spring Boot é um projeto dentro do ecossistema do Spring Framework que facilita o desenvolvimento de aplicações Java. Antes, era necessário fazer várias configurações e escrever arquivos XML, mas com o Spring Boot, isso não é mais necessário. Além disso, o Spring Boot integra-se facilmente com outras bibliotecas, como o Spring Data, que permite trabalhar com bancos de dados de forma rápida e fácil. O Spring Boot se tornou popular devido à sua facilidade de uso, flexibilidade e desempenho.
 
 ------------------
 
@@ -18,8 +18,6 @@ Também podemos definir as informações do projeto, como o grupo, o nome e a de
 Após configurar todas as opções, podemos gerar o projeto e baixar o arquivo ZIP contendo a estrutura básica do projeto. Em seguida, podemos importar o projeto em nossa IDE de preferência, como o Visual Studio Code, e começar a desenvolver nossa aplicação Spring Boot.
 
 É importante destacar que o Spring Boot oferece a opção de empacotamento em formato JAR ou WAR. O formato JAR é utilizado para aplicações standalone, enquanto o formato WAR é utilizado para aplicações web que precisam ser implantadas em um servidor de aplicação.
-
-No próximo vídeo, iremos explorar a estrutura do projeto gerado pelo Spring Initializer e começar a desenvolver nossa aplicação Spring Boot.
 
 ---------------------
 
@@ -56,8 +54,7 @@ ResponseEntity, que nos permite definir o status e o corpo da resposta. Podemos 
 
 ## Ioc DI
 
-Um bin é um objeto gerenciado pelo container IOC, ou seja, é criado e configurado pelo container e pode ser injetado em outros bins. Para indicar que uma classe será gerenciada pelo Spring, utilizamos annotations como @Component ou @Service. O Spring utiliza o conceito de IOC (Inversão de Controle) para gerenciar os componentes da aplicação e a injeção de dependência para conectar os componentes. Vamos ver na prática como isso funciona, criando um pacote e um componente gerenciado pelo Spring.
-
+Um bin é um objeto gerenciado pelo container IOC, ou seja, é criado e configurado pelo container e pode ser injetado em outros bins. Para indicar que uma classe será gerenciada pelo Spring, utilizamos annotations como @Component ou @Service. O Spring utiliza o conceito de IOC (Inversão de Controle) para gerenciar os componentes da aplicação e a injeção de dependência para conectar os componentes. 
 
 ## Component: 
 ```
